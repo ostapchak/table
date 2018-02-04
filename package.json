@@ -1,0 +1,17 @@
+{
+  "name": "ajaxform",
+  "version": "1.0.0",
+  "description": "form",
+  "main": "server.js",
+  "scripts": {
+    "test": "TEST",
+    "start": "node server.js"
+  },
+  "author": "roman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.11.6"
+  }
+}

@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#menu, #content{
+	width: 800px;
+	margin: 10px auto;
+	background-color: gray;
+	overflow:hidden;
+}
+#menu ul{
+	list-style-type: none; 
+}
+#menu ul li{
+	width: 100px;
+	padding: 10px;
+	margin: 10px 0 10px 10px;
+	text-align: center;
+	background-color: orange;
+	color: black;
+	float: left;
+	cursor: pointer;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bold;
+}
+#menu ul li.active{
+	background-color: black;
+	color: orange;
+}
+#content table td{
+	padding: 5px;
+	border:1px white solid;
+	width: 200px;
+	font-size: 13px;
+	font-family: Verdana;
+}
+.header{
+	background-color: orange;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+}
+.header:hover{
+	background-color: black;
+	color: orange;
+}
+.btnDel{
+	color: red;
+	padding: 3px;
+}
+.btnUpd{
+	color: blue;
+	padding: 3px;
+	margin-left: 3px;
+}
+#rowId{
+display: none;
+}
+form input{
+	display: block;
+}
+#search{
+	width: 150px;
+	font-family: verdana;
+}
+
+#list li{
+	width: 150px;
+	background-color:#9ca2ad;
+	font-family: verdana;
+	font-size: 12px;
+	cursor: pointer;
+}
+#list li:hover{
+	background-color: #fff;
+}
+#searchForm{
+	width: 800px;
+	margin: 10px auto;
+}
+#search, #load{
+	display: inline-block;
+}
+#inputForm input{
+	margin: 3px;
+}
+#list li, #info li{
+list-style-type: none
+}
+#info{
+	margin-top: 3px;
+}
